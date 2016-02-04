@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style type="text/css">
+ body{
+    background-color: wheat;
+ }
+
+ div#mp3_player{
+  width: 500px; height: 500px; background-color: wheat; padding: 5px; margin:  auto; 
+}
+
+div#mp3_player > div audio{
+  width: 500px; background: wheat; float: left;
+}
+
+div#mp3_player > canvas{
+  width: 500px; height: 680px; background: wheat; float: left;
+}
+</style>
+
+
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+   <div id= "mp3_player">
+       <div id="audio_box"></div>
+       <canvas id="graphic_render"></canvas>
+   </div>
+
+</body>
+
+</html>
